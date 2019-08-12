@@ -249,7 +249,10 @@ class ICanFly:
         self.name = name
 
     def who(self):
-        print(self.name + "Can Fly")
+        print(self.name + " Can Fly")
 
 x = ICanFly("zhangsan")
 x.who()
+
+y = ICanFly("李四")
+y.who()
