@@ -242,3 +242,14 @@ class GameManager(object):
 
 if __name__ == '__main__':
     curses.wrapper(GameManager())
+
+
+class ICanFly:
+    def __init__(self, name):
+        self.name = name
+
+    def who(self):
+        print(self.name + "Can Fly")
+
+x = ICanFly("zhangsan")
+x.who()
